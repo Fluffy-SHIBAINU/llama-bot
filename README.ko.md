@@ -1,60 +1,61 @@
+# 🦙 라마봇 – 성격 있는 로컬 챗봇
 
-# 🐶 FluffyShiba Chatbot
+라마봇은 [Ollama](https://ollama.com)를 기반으로 동작하는  
+유쾌하고 귀여운 인공지능 캐릭터 챗봇입니다.  
+라마, 교수, 개그맨, 코딩봇 등의 프리셋으로 성격을 설정할 수 있으며,  
+모든 기능은 로컬에서 실행됩니다.
 
-디스코드 스타일로 만든 AI 챗봇 인터페이스!  
-OpenAI GPT 모델과 연동하여 대화가 가능하며, 깔끔하고 반응형 UI로 구현되었습니다.
-
-<img width="1506" alt="image" src="https://github.com/user-attachments/assets/6e318aca-cdb8-4c3c-9a12-7cc29150fa11" />
----
-
-## 🚀 데모
-
-🔗 [fluffy-shiba-chatbot.github.io](https://fluffy-shibainu.github.io/fluffy-shiba-chatbot/)
+![screenshot](https://user-images.githubusercontent.com/your-id/llama-screenshot.png)
 
 ---
 
-## ✨ 주요 기능
+## 🚀 주요 기능
 
-- 💬 디스코드 스타일의 대화 UI
-- 🤖 OpenAI API 연동 (GPT-3.5-turbo)
-- 🌓 다크 테마 기본 적용
-- 🔄 자동 스크롤 및 로딩 표시
-- ⌨️ Shift + Enter 줄바꿈 / Enter 전송
-- 🧠 Netlify Functions 프록시로 API 키 보안 처리
+- 🧠 에이전트 프리셋 (라마봇, 교수, 개그, 코딩)
+- 🗣️ System 메시지를 통한 성격 주입
+- 🔁 대화 기록 저장 (localStorage)
+- 🖼️ 이미지 URL 자동 미리보기
+- 🌐 한글 / 영어 모두 자연스럽게 처리
+- 🧪 로컬 LLM 모델 (mistral 등)로 동작
 
 ---
 
-## 🛠️ 설치 및 실행
+## ⚙️ 시작하기
 
 ```bash
-git clone https://github.com/Fluffy-SHIBAINU/fluffy-shiba-chatbot.git
-cd fluffy-shiba-chatbot
+git clone https://github.com/your-username/llama-bot.git
+cd llama-bot
 npm install
 npm run dev
 ```
 
-### ▶️ Netlify 로컬 테스트
+Ollama 설치 후 모델을 실행하세요:
 
 ```bash
-netlify dev
+ollama run mistral
 ```
+
+브라우저에서 [http://localhost:5173](http://localhost:5173) 열기
 
 ---
 
 ## 📦 기술 스택
 
-- ⚛️ React (with Vite)
-- 💅 Custom CSS (Discord-like)
-- 🧠 OpenAI API (GPT-3.5)
-- 🌐 GitHub Pages 배포
-- 🛡 Netlify Functions 프록시 서버
+- React + Vite
+- Ollama (로컬 LLM)
+- Custom CSS (디스코드 스타일 UI)
+- localStorage (대화 기록 저장)
 
 ---
 
-## 🙌 기여하기
+## 🧠 에이전트 프리셋
 
-Pull Request는 언제나 환영입니다!  
-아이디어, 기능 개선, 버그 리포트도 자유롭게 주세요 😄
+| 이름 | 설명 |
+|------|------|
+| 🦙 라마 | "음메~", "람람~" 스타일로 귀엽게 대화 |
+| 🎓 교수 | 논리적이고 정중한 설명 |
+| 🤡 개그 | 유쾌하고 장난스러운 반응 |
+| 👨‍💻 코딩 | 실용적인 코딩 답변 제공 |
 
 ---
 

@@ -1,63 +1,59 @@
-# 🐶 FluffyShiba Chatbot
+# 🦙 Llama Bot – Playful Local Chatbot with Personality
 
-> English | [한국어 🇰🇷](./README.ko.md)
+Llama Bot is a funny, character-based local AI chatbot powered by [Ollama](https://ollama.com) and React.  
+It includes agent presets like a silly llama, professor, coder, or joker — all running locally with models like `mistral`, `phi`, or `llama2`.
 
-A Discord-style AI chatbot interface built with React and Vite.  
-It connects to OpenAI's GPT-3.5-turbo via a secure proxy and provides a slick, responsive UI for chatting.
-
-<img width="967" alt="image" src="https://github.com/user-attachments/assets/8412c90f-e062-421b-8313-8e6ed980eb1c" />
-
+![screenshot](https://user-images.githubusercontent.com/your-id/llama-screenshot.png)
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Features
 
-🔗 [fluffy-shiba-chatbot.github.io](https://fluffy-shibainu.github.io/fluffy-shiba-chatbot/)
-
----
-
-## ✨ Features
-
-- 💬 Discord-like chat interface
-- 🤖 Connected to OpenAI API (GPT-3.5-turbo)
-- 🌙 Dark mode enabled
-- 🔄 Auto-scroll and loading indicators
-- ⌨️ Shift + Enter for newline / Enter to send
-- 🔐 Netlify Functions used to secure API key
+- 🧠 Agent presets (Llama, Professor, Coder, Joker)
+- 🗣️ System prompt injection to control personality
+- 🔁 Chat history stored locally
+- 🖼️ Image URL preview support
+- 🌐 Supports English + Korean language
+- 🧪 Powered by local Ollama LLM models
 
 ---
 
-## 🛠️ Getting Started
+## ⚙️ Getting Started
 
 ```bash
-git clone https://github.com/Fluffy-SHIBAINU/fluffy-shiba-chatbot.git
-cd fluffy-shiba-chatbot
+git clone https://github.com/your-username/llama-bot.git
+cd llama-bot
 npm install
 npm run dev
 ```
 
-### ▶️ Run with Netlify Dev (for local proxy support)
+Make sure you have Ollama installed and a model running:
 
 ```bash
-netlify dev
+ollama run mistral
 ```
+
+Then visit [http://localhost:5173](http://localhost:5173)
 
 ---
 
 ## 📦 Tech Stack
 
-- ⚛️ React + Vite
-- 🎨 Custom CSS (Discord-style UI)
-- 🧠 OpenAI API (GPT-3.5)
-- 📦 GitHub Pages (for deployment)
-- 🛡️ Netlify Functions (API key proxy)
+- React + Vite
+- Ollama (local LLM backend)
+- Custom CSS (Discord-style chat UI)
+- localStorage for state persistence
 
 ---
 
-## 🙌 Contributions
+## 🧠 Agent Presets
 
-Pull Requests are welcome!  
-Feel free to submit issues, ideas, or enhancements 😄
+| Name | Description |
+|------|-------------|
+| 🦙 Llama | Playful, silly responses like "mehh~", "ramram~" |
+| 🎓 Professor | Thoughtful, logical explanations |
+| 🤡 Joker | Lighthearted, fun and quirky |
+| 👨‍💻 Coder | Smart and to-the-point coding assistant |
 
 ---
 
