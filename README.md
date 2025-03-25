@@ -3,7 +3,7 @@
 Llama Bot is a funny, character-based local AI chatbot powered by [Ollama](https://ollama.com) and React.  
 It includes agent presets like a silly llama, professor, coder, or joker — all running locally with models like `mistral`, `phi`, or `llama2`.
 
-![screenshot](https://user-images.githubusercontent.com/your-id/llama-screenshot.png)
+<img width="1494" alt="image" src="https://github.com/user-attachments/assets/5ebb7aae-4e12-4e2d-9937-972b1cc39220" />
 
 ---
 
