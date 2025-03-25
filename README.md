@@ -5,6 +5,7 @@ It includes agent presets like a silly llama, professor, coder, or joker — all
 
 <img width="1494" alt="image" src="https://github.com/user-attachments/assets/5ebb7aae-4e12-4e2d-9937-972b1cc39220" />
 
+DEMO:https://fluffy-shibainu.github.io/llama-bot/
 ---
 
 ## 🚀 Features
