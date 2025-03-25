@@ -1,30 +1,32 @@
-
 # 🐶 FluffyShiba Chatbot
 
-디스코드 스타일로 만든 AI 챗봇 인터페이스!  
-OpenAI GPT 모델과 연동하여 대화가 가능하며, 깔끔하고 반응형 UI로 구현되었습니다.
+> English | [한국어 🇰🇷](./README.ko.md)
 
-<img width="1506" alt="image" src="https://github.com/user-attachments/assets/6e318aca-cdb8-4c3c-9a12-7cc29150fa11" />
+A Discord-style AI chatbot interface built with React and Vite.  
+It connects to OpenAI's GPT-3.5-turbo via a secure proxy and provides a slick, responsive UI for chatting.
+
+![screenshot](https://user-images.githubusercontent.com/your-id/screenshot.png)
+
 ---
 
-## 🚀 데모
+## 🚀 Live Demo
 
 🔗 [fluffy-shiba-chatbot.github.io](https://fluffy-shibainu.github.io/fluffy-shiba-chatbot/)
 
 ---
 
-## ✨ 주요 기능
+## ✨ Features
 
-- 💬 디스코드 스타일의 대화 UI
-- 🤖 OpenAI API 연동 (GPT-3.5-turbo)
-- 🌓 다크 테마 기본 적용
-- 🔄 자동 스크롤 및 로딩 표시
-- ⌨️ Shift + Enter 줄바꿈 / Enter 전송
-- 🧠 Netlify Functions 프록시로 API 키 보안 처리
+- 💬 Discord-like chat interface
+- 🤖 Connected to OpenAI API (GPT-3.5-turbo)
+- 🌙 Dark mode enabled
+- 🔄 Auto-scroll and loading indicators
+- ⌨️ Shift + Enter for newline / Enter to send
+- 🔐 Netlify Functions used to secure API key
 
 ---
 
-## 🛠️ 설치 및 실행
+## 🛠️ Getting Started
 
 ```bash
 git clone https://github.com/Fluffy-SHIBAINU/fluffy-shiba-chatbot.git
@@ -33,7 +35,7 @@ npm install
 npm run dev
 ```
 
-### ▶️ Netlify 로컬 테스트
+### ▶️ Run with Netlify Dev (for local proxy support)
 
 ```bash
 netlify dev
@@ -41,23 +43,23 @@ netlify dev
 
 ---
 
-## 📦 기술 스택
+## 📦 Tech Stack
 
-- ⚛️ React (with Vite)
-- 💅 Custom CSS (Discord-like)
+- ⚛️ React + Vite
+- 🎨 Custom CSS (Discord-style UI)
 - 🧠 OpenAI API (GPT-3.5)
-- 🌐 GitHub Pages 배포
-- 🛡 Netlify Functions 프록시 서버
+- 📦 GitHub Pages (for deployment)
+- 🛡️ Netlify Functions (API key proxy)
 
 ---
 
-## 🙌 기여하기
+## 🙌 Contributions
 
-Pull Request는 언제나 환영입니다!  
-아이디어, 기능 개선, 버그 리포트도 자유롭게 주세요 😄
+Pull Requests are welcome!  
+Feel free to submit issues, ideas, or enhancements 😄
 
 ---
 
-## 📄 라이선스
+## 📄 License
 
 MIT License © 2025 [Shawn Yoon](https://github.com/Fluffy-SHIBAINU)
