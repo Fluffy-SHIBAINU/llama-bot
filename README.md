@@ -5,7 +5,8 @@
 A Discord-style AI chatbot interface built with React and Vite.  
 It connects to OpenAI's GPT-3.5-turbo via a secure proxy and provides a slick, responsive UI for chatting.
 
-![screenshot](https://user-images.githubusercontent.com/your-id/screenshot.png)
+![image](https://github.com/user-attachments/assets/3e0013e1-9b23-4666-b577-e52341de3413)
+
 
 ---
 
